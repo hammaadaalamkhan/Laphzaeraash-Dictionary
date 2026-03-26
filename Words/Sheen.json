@@ -1,0 +1,26 @@
+[
+  {
+    "word": "Shiin",
+    "part_of_speech": "noun",
+    "meaning": "Snow",
+    "example_sentence": "Shiin cho saphaiidd aasaann.",
+    "notes": "Sounds like the German word for snow, Schnee.",
+    "audio": "Audio/Shiin.mp4"
+  },
+  {
+    "word": "ruudd",
+    "part_of_speech": "noun",
+    "meaning": "Rain",
+    "example_sentence": "Ruudd painnvaann penddyyoo penddyyoo.",
+    "notes": "It usually means a stream in Persian.",
+    "audio": "Audio/Ruud.mp4"
+  },
+  {
+    "word": "Doaath",
+    "part_of_speech": "noun",
+    "meaning": "Hail",
+    "example_sentence": "Piyaa kalaes doaath.",
+    "notes": "Yae gaczhehee henddosttaanaes pyyon.",
+    "audio": "Audio/Doaath.mp4"
+  }
+]

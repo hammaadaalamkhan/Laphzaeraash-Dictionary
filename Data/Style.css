@@ -1,0 +1,136 @@
+/* Base body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f0f4f0;
+    /* light green background */
+    margin: 0;
+    padding: 0;
+    color: #f0f0f0;
+}
+
+/* Header */
+header {
+    background: #064420;
+    /* dark green */
+    color: white;
+    text-align: center;
+    padding: 25px 10px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+.header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+
+/* Logo image */
+header .logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+/* Search Box */
+input#search {
+    padding: 12px 15px;
+    width: 80%;
+    max-width: 400px;
+    margin: 20px auto 30px auto;
+    display: block;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    transition: border 0.2s, box-shadow 0.2s;
+}
+
+input#search:focus {
+    border-color: #0a6622;
+    box-shadow: 0 0 8px rgba(6, 68, 32, 0.3);
+    outline: none;
+}
+
+/* Main container */
+main {
+    padding: 0 20px 40px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Word Cards */
+.word-card {
+    background: #0a6622;
+    /* darker green */
+    color: #f0f0f0;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+/* Hover effect */
+.word-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
+}
+
+/* Word title */
+.word-card h2 {
+    margin-top: 0;
+    font-size: 1.6rem;
+    color: #adebad;
+    /* light green for title */
+}
+
+.word-card h2 small {
+    font-size: 0.9rem;
+    color: #cce5cc;
+}
+
+/* Meaning and example */
+.word-card p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 8px 0;
+    color: #e0f2e0;
+}
+
+/* Notes */
+.word-card p strong {
+    color: #cce5cc;
+}
+
+/* Audio player */
+audio {
+    margin-top: 12px;
+    width: 100%;
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 1.6rem;
+    }
+
+    input#search {
+        width: 95%;
+    }
+
+    .word-card {
+        padding: 18px;
+    }
+
+    .header-inner {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
